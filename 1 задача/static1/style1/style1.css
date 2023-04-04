@@ -1,0 +1,35 @@
+.header {
+    background-color: rgb(167, 104, 104);
+    color: rgb(206, 153, 89);
+    text-align: center;
+    padding: 5px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: aqua;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: blue;
+    color: black;
+}
+.content {
+    background-color: blueviolet;
+    padding: 10px;
+}
+.footer {
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(47, 239, 137);
+    color: rgb(210, 19, 83);
+    text-align: center;
+}
